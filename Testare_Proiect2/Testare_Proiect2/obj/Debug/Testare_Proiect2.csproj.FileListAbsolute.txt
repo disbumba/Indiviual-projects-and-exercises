@@ -1,0 +1,11 @@
+D:\Testare_Proiect2\Testare_Proiect2\bin\Debug\Testare_Proiect2.exe.config
+D:\Testare_Proiect2\Testare_Proiect2\bin\Debug\Testare_Proiect2.exe
+D:\Testare_Proiect2\Testare_Proiect2\bin\Debug\Testare_Proiect2.pdb
+D:\Testare_Proiect2\Testare_Proiect2\obj\Debug\Testare_Proiect2.csproj.AssemblyReference.cache
+D:\Testare_Proiect2\Testare_Proiect2\obj\Debug\Testare_Proiect2.Form1.resources
+D:\Testare_Proiect2\Testare_Proiect2\obj\Debug\Testare_Proiect2.Properties.Resources.resources
+D:\Testare_Proiect2\Testare_Proiect2\obj\Debug\Testare_Proiect2.csproj.GenerateResource.cache
+D:\Testare_Proiect2\Testare_Proiect2\obj\Debug\Testare_Proiect2.csproj.CoreCompileInputs.cache
+D:\Testare_Proiect2\Testare_Proiect2\obj\Debug\Testare_Proiect2.exe
+D:\Testare_Proiect2\Testare_Proiect2\obj\Debug\Testare_Proiect2.pdb
+D:\Testare_Proiect2\Testare_Proiect2\obj\Debug\Testare_Proiect2.exe.config
