@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="tabelstyle.css">
+  <title>Tabel cursuri</title>
+</head>
+
+<body>
+    <button onclick="alert('Salut!')">Click inline</button>
+
+  <img class="responsive-img" src="HD-wallpaper-imagine-poza.jpg" alt="Imagine" />
+
+  <table>
+    <thead>
+      <tr>
+        <th>Concurs</th>
+        <th>Lecturer</th>
+        <th>Durată</th>
+        <th>Nivel</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Introducere în HTML</td>
+        <td>Prof. Ion Popescu</td>
+        <td>2 săptămâni</td>
+        <td>Începător</td>
+        <td>Activ</td>
+      </tr>
+
+      <tr>
+        <td>CSS Avansat</td>
+        <td>Dr. Maria Ionescu</td>
+        <td>3 săptămâni</td>
+        <td>Intermediar</td>
+        <td>În așteptare</td>
+      </tr>
+
+      <tr>
+        <td>JavaScript pentru Web</td>
+        <td>Ing. Andrei Vasile</td>
+        <td>4 săptămâni</td>
+        <td>Avansat</td>
+        <td>Finalizat</td>
+      </tr>
+
+      <tr>
+        <td>Baza de date</td>
+        <td>Prof. Elena Dumintrescu</td>
+        <td>5 săptămâni</td>
+        <td>Expert</td>
+        <td>Activ</td>
+      </tr>
+
+      <tr>
+        <td>React Framework</td>
+        <td>Dr. Mihai Radu</td>
+        <td>6 săptămâni</td>
+        <td>Master</td>
+        <td>În așteptare</td>
+      </tr>
+    </tbody>
+  </table>
+  <button id="schimbaCuloare">Schimbă culoarea</button>
+  <button id ="schimbatext">Schimbă textul</button>
+  <p id="paragraf">Text inițial</p>
+
+
+<form id="myForm">
+    <input type="text" id="nume" placeholder="Introdu numele tău">
+    <button type="submit">Trimite</button>
+    
+</form>
+
+<p id="mesaj"></p>
+ <script>
+        // Cod JS în script tag
+        console.log("Acesta este JS în pagină");
+        const buton = document.getElementById('schimbaCuloare');
+let culoareCurenta = 'white';
+
+buton.addEventListener('mouseover', function() {
+    culoareCurenta = (culoareCurenta === 'white') ? 'lightblue' : 'white';
+    document.body.style.backgroundColor = culoareCurenta;
+});
+
+/*const form = document.getElementById('myForm');
+const input = document.getElementById('nume');
+const mesaj = document.getElementById('mesaj');
+
+form.addEventListener('submit', function(event) {
+    event.preventDefault();
+    if (input.value.trim() === '') {
+        mesaj.textContent = 'Te rog introdu un nume!';
+        mesaj.style.color = 'red';
+    } else {
+        mesaj.textContent = 'Salut, ' + input.value + '!';
+        mesaj.style.color = 'green';
+    }
+});*/
+/*const form = document.getElementById('myForm');
+const input = document.getElementById('nume');
+const mesaj = document.getElementById('mesaj');
+
+form.addEventListener('keyup', function(event) {
+    event.preventDefault();
+    if (input.value.trim() === '') {
+        mesaj.textContent = 'Te rog introdu un nume!';
+        mesaj.style.color = 'red';
+    } else {
+        mesaj.textContent = 'Salut, ' + input.value + '!';
+        mesaj.style.color = 'green';
+    }
+});
+const btn=document.getElementById('schimbatext');
+btn.addEventListener('click', function() {
+    document.getElementById('paragraf').textContent = 'Text schimbat!';
+});*/
+
+
+const form = document.getElementById('myForm');
+const input = document.getElementById('nume');
+const mesaj = document.getElementById('mesaj');
+
+form.addEventListener('submit', function(event) {
+    event.preventDefault();
+  const text=input.value.trim();
+  if (text === '')
+   return;
+    const p = document.createElement('p');   
+    p.textContent = text;                    
+    document.body.appendChild(p);    
+    input.value = '';                         
+});          
+    </script>
+
+    <script src="script.js"></script> <!-- Fișier extern -->
+</body>
+</html>
