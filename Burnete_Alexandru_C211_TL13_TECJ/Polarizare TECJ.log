@@ -1,0 +1,15 @@
+LTspice 24.1.10 for Windows
+Circuit: C:\Users\birsa\OneDrive\Desktop\Birsan_Ioan_Andrei_C211_TL13_TECJ\Polarizare TECJ.net
+Start Time: Sat Dec 27 19:22:15 2025
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.037 seconds.
+
+Files loaded:
+C:\Users\birsa\OneDrive\Desktop\Birsan_Ioan_Andrei_C211_TL13_TECJ\Polarizare TECJ.net
+C:\Users\birsa\AppData\Local\LTspice\lib\cmp\standard.jft
+
