@@ -5,8 +5,8 @@ Repository containing projects, lab assignments, and exercises completed during 
 ## Contents
 - `Exercitii_C++/` – C++ exercises and problems (algorithms, data structures, OOP)
 - `Programare_WEB/` – web assignments/projects (HTML/CSS/JS)
-- `Burnete_Alexandru_C211_TL13/` – lab materials/assignments (C++)
-- `Burnete_Alexandru_C211_TL13_TECJ/` – lab materials/assignments (C++)
+- `Burnete_Alexandru_C211_TL13/` – lab materials/assignments (LTSpice)
+- `Burnete_Alexandru_C211_TL13_TECJ/` – lab materials/assignments (LTSpice)
 
 > Note: The structure may change over time; each folder has (or will have) its own README with more details.
 
