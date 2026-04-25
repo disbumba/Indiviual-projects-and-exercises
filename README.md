@@ -41,4 +41,4 @@ Work in progress (updated regularly). Feedback is welcome.
 
 ## Contact
 - GitHub: https://github.com/disbumba
-- LinkedIn: (add your link here when available)
+- LinkedIn: https://www.linkedin.com/in/burnete-alexandru-71389b405/
