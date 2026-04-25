@@ -1,0 +1,33 @@
+LTspice 24.1.10 for Windows
+Circuit: C:\Users\birsa\OneDrive\Desktop\Birsan_Ioan_Andrei_Stare_TB_simulare\AEC.net
+Start Time: Mon Dec 22 22:42:51 2025
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.052 seconds.
+
+Files loaded:
+C:\Users\birsa\OneDrive\Desktop\Birsan_Ioan_Andrei_Stare_TB_simulare\AEC.net
+C:\Users\birsa\AppData\Local\LTspice\lib\cmp\standard.bjt
+
+Fourier components of V(OUT)
+N-Period=1
+DC component:-0.00279552
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	 4.000e+02	 4.700e-01	 1.000e+00	  -90.39°	    0.00°
+    2   	 8.000e+02	 6.749e-03	 1.436e-02	   -0.70°	   89.69°
+    3   	 1.200e+03	 2.097e-04	 4.461e-04	 -131.54°	  -41.15°
+    4   	 1.600e+03	 9.836e-05	 2.093e-04	  -94.75°	   -4.36°
+    5   	 2.000e+03	 2.585e-04	 5.501e-04	   54.26°	  144.65°
+    6   	 2.400e+03	 1.648e-04	 3.507e-04	   47.23°	  137.62°
+    7   	 2.800e+03	 2.432e-04	 5.174e-04	  -98.26°	   -7.87°
+    8   	 3.200e+03	 8.495e-05	 1.807e-04	  164.51°	  254.90°
+    9   	 3.600e+03	 1.354e-04	 2.880e-04	  137.00°	  227.39°
+Partial Harmonic Distortion: 1.439580%
+Total Harmonic Distortion:   1.441223%
+

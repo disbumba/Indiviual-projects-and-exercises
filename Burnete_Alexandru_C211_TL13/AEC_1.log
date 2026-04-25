@@ -1,0 +1,15 @@
+LTspice 24.1.10 for Windows
+Circuit: C:\Users\birsa\OneDrive\Desktop\Birsan_Ioan_Andrei_Stare_TB_simulare\AEC_1.net
+Start Time: Fri Dec 26 23:05:47 2025
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.077 seconds.
+
+Files loaded:
+C:\Users\birsa\OneDrive\Desktop\Birsan_Ioan_Andrei_Stare_TB_simulare\AEC_1.net
+C:\Users\birsa\AppData\Local\LTspice\lib\cmp\standard.bjt
+
